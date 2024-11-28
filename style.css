@@ -1,0 +1,130 @@
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #6c757d;
+    transition: background-color 0.3s ease;
+  }
+  .social-icons a:hover {
+    background-color: #007bff;
+  }
+  .social-icons .facebook { background-color: #3b5998; }
+  .social-icons .twitter { background-color: #1da1f2; }
+  .social-icons .instagram { background: radial-gradient(circle, #fcb045, #fd1d1d, #833ab4); }
+  .social-icons .linkedin { background-color: #0077b5; }
+  .social-icons .youtube { background-color: #ff0000; }
+
+
+
+h1{
+    text-align: center;
+}
+  
+  .style{
+    width: 100px;
+    height: 50px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear ;
+  }
+  .style1{
+    width: 100px;
+    height: 50px;
+    background: rgb(26, 4, 4);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+  }
+  .style2{
+    width: 100px;
+    height: 50px;
+    background: rgb(179, 144, 144);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in;
+  }
+  .style4{
+    width: 100px;
+    height: 50px;
+    background: rgb(105, 30, 30);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-out;
+  }
+  
+  .style5{
+    width: 100px;
+    height: 50px;
+    background: rgb(211, 43, 43);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}}
+
+h2{
+        text-align: center;
+        background-color: #6c757d;
+    }
+.cursor{
+
+color: #833ab4;
+
+
+}
+  .alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.col-resize {cursor: col-resize;}
+.context-menu {cursor: context-menu;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
